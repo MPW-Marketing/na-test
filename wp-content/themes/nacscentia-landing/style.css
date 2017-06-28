@@ -99,7 +99,7 @@ input {
 }
 
 #hero {
-    background-image: url(na.mpwclient.com/wp-content/uploads/2017/06/nacentia-hero.png);
+    background-image: url(https://www.na.mpwclient.com/wp-content/uploads/2017/06/nacentia-hero.png);
     /*min-height: 500px; */
     background-size: contain;
     background-position: 100% 0;
