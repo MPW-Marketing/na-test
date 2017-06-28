@@ -1,0 +1,77 @@
+/**
+ * Handles toggling the main navigation menu for small screens.
+ */
+/*jQuery( document ).ready( function( $ ) {
+	var $masthead = $( '#masthead' ),
+	    timeout = false;
+
+	$.fn.smallMenu = function() {
+		$masthead.find( '#site-navigation' ).removeClass( 'main-navigation' ).addClass( 'main-small-navigation' );
+		$masthead.find( '#site-navigation h3' ).removeClass( 'assistive-text' ).addClass( 'menu-toggle' );
+
+		$( '.menu-toggle' ).unbind( 'click' ).click( function() {
+			$masthead.find( '.nav-menu' ).toggle();
+			$( this ).toggleClass( 'toggled-on' );
+		} );
+	};
+
+	// Check viewport width on first load.
+	if ( $( window ).width() < 768 )
+		$.fn.smallMenu();
+
+	// Check viewport width when user resizes the browser window.
+	$( window ).resize( function() {
+		var browserWidth = $( window ).width();
+
+		if ( false !== timeout )
+			clearTimeout( timeout );
+
+		timeout = setTimeout( function() {
+			if ( browserWidth < 768 ) {
+				$.fn.smallMenu();
+			} else {
+				$masthead.find( '#site-navigation' ).removeClass( 'main-small-navigation' ).addClass( 'main-navigation' );
+				$masthead.find( '#site-navigation h3' ).removeClass( 'menu-toggle' ).addClass( 'assistive-text' );
+				$masthead.find( '.nav-menu' ).removeAttr( 'style' );
+			}
+		}, 200 );
+	} );
+
+//resize the slider menu if it exists
+var $masthead2 = $( '.slider-container' ),
+		timeout2 = false;
+
+$.fn.smallMenu2 = function() {
+	$masthead2.find( '#slider-navigation' ).removeClass( 'main-navigation' ).addClass( 'main-small-navigation' );
+	$masthead2.find( '#slider-navigation h3' ).removeClass( 'assistive-text' ).addClass( 'menu-toggle' );
+
+	$( '.slider-container .menu-toggle' ).unbind( 'click' ).click( function() {
+		$masthead2.find( '.nav-menu' ).toggle();
+		$( this ).toggleClass( 'toggled-on' );
+	} );
+};
+
+// Check viewport width on first load.
+if ( $( window ).width() < 768 )
+	$.fn.smallMenu2();
+
+// Check viewport width when user resizes the browser window.
+$( window ).resize( function() {
+	var browserWidth = $( window ).width();
+
+	if ( false !== timeout2 )
+		clearTimeout( timeout2 );
+
+	timeout2 = setTimeout( function() {
+		if ( browserWidth < 768 ) {
+			$.fn.smallMenu2();
+		} else {
+			$masthead2.find( '#slider-navigation' ).removeClass( 'main-small-navigation' ).addClass( 'main-navigation' );
+			$masthead2.find( '#slider-navigation h3' ).removeClass( 'menu-toggle' ).addClass( 'assistive-text' );
+			$masthead2.find( '.nav-menu' ).removeAttr( 'style' );
+		}
+	}, 200 );
+} );
+
+
+} );*/

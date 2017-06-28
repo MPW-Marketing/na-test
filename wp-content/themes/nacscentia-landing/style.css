@@ -1,0 +1,249 @@
+/*
+Theme Name: Nascentia Landing Page
+Template: sitepoint-base-mpw
+Author: Child Theme Configurator
+Version: 1.0.1498163728
+Updated: 2017-06-22 20:35:28
+
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "filson-pro", sans-serif;
+}
+
+body,
+p,
+input {
+    font-family: "open-sans", sans-serif;
+}
+
+.header-right-outer {
+    width: 100%;
+    text-align: right;
+    float: right;
+    padding: 10px 0;
+    position: relative;
+}
+
+.main-navigation {
+    width: 100%;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.main-navigation li {
+    float: none;
+}
+
+.header-right-outer p {
+    margin-bottom: 0;
+}
+
+.header-right-outer {
+    background: -moz-linear-gradient(0deg, #ffffff 44%, #d7e1c6 100%);
+    background: -o-linear-gradient(0deg, #ffffff 44%, #d7e1c6 100%);
+    background: -ms-linear-gradient(0deg, #ffffff 44%, #d7e1c6 100%);
+    background: linear-gradient(90deg, #ffffff 44%, #d7e1c6 100%);
+}
+
+.header-right-outer:after {
+    position: absolute;
+    content: "";
+    left: 100%;
+    height: 100%;
+    width: 99rem;
+    top: 0;
+    background-color: #d7e1c6;
+    overflow: hidden;
+}
+
+.full-width-section {
+    float: left;
+    width: 100%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.full-width-bar-page .content-width,
+#prefootercontainer .content-width {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.full-width-bar-page .site-content {
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.full-width-bar-page .site-content .content-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#coming-soon-section {
+    background: -webkit-linear-gradient(-90deg, #ffffff 0%, #d7e1c6 35%);
+    background: -moz-linear-gradient(-90deg, #ffffff 0%, #d7e1c6 35%);
+    background: -o-linear-gradient(-90deg, #ffffff 0%, #d7e1c6 35%);
+    background: -ms-linear-gradient(-90deg, #ffffff 0%, #d7e1c6 35%);
+    background: linear-gradient(-90deg, #ffffff 0%, #d7e1c6 35%);
+    text-align: center;
+}
+
+#hero {
+    background-image: url(na.mpwclient.com/wp-content/uploads/2017/06/nacentia-hero.png);
+    /*min-height: 500px; */
+    background-size: contain;
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1500px) {
+    #hero {
+        background-size: cover;
+    }
+}
+
+#letter h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.hero-inner {
+    float: left;
+}
+
+.hero-inner {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    min-height: 460px;
+}
+
+.hero-text {
+    float: left;
+    margin-bottom: 60px;
+    font-size: 24px;
+}
+
+.button {
+    padding: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+@media screen and (max-width:1024px) {
+    #hero {
+        background-size: cover;
+    }
+}
+
+.signature-container {
+    float: left;
+    width: 100%;
+}
+
+.signature-name {
+    float: left;
+    width: 100%;
+}
+
+#letter h2 {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.content-container {
+    padding-top: 0;
+}
+
+.site-header {
+    padding-bottom: 0;
+    height: 125px;
+}
+
+.site-nav {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width:767px) {
+    .site-header {
+        height: auto;
+    }
+}
+
+.logo-column img {
+    max-width: 240px;
+    margin-bottom: 0;
+}
+
+.logo-columns {
+    display: flex;
+    align-items: center;
+}
+
+.site-footer {
+    max-width: 1500px;
+    align-items: flex-start;
+    border-top: 1px solid #959595;
+    padding-top: 12px;
+}
+
+.site-footer p {
+    font-size: 12px;
+}
+
+.footer-section-2 {
+    text-align: center;
+}
+
+.footer-section-3 {
+    text-align: right;
+}
+
+.site-title img {
+    max-width: 250px;
+}
+
+@media screen and (max-width:767px) {
+    .footer-section-2 {
+        text-align: left;
+    }
+    .footer-section-3 {
+        text-align: left;
+    }
+    .logo-columns {
+        display: block;
+    }
+    .header-right-outer {
+        text-align: center;
+    }
+    .site-title {
+        text-align: center;
+    }
+    .main-small-navigation {
+        text-align: center;
+    }
+    .main-navigation {
+        text-align: center;
+    }
+    header .main-navigation {
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+}
