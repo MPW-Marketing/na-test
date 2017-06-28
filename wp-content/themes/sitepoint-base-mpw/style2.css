@@ -1,0 +1,322 @@
+/*
+Theme Name: Sitepoint Base - MPW Additions
+Theme URI: http://sitepoint.com/sitepoint-base
+Author: Sitepoint
+Author URI: http://sitepoint.com
+Description: The Sitepoint Base is a clean, fast and simple platform for creating beautiful, responsive custom WordPress themes. It's a simple starter theme built on HTML5 & CSS3. At its core is a fluid, responsive grid based on percentages, making for a flexible layout. It incorporates a set of common templates, support for WordPress Post Formats and the gorgeous, retina friendly Font Awesome icon font. The Sitepoint Base is WooCommerce compatible, Multilingual Ready (WPML) and translateable. It's also compatible with a wide range of popular page builders such as Visual Composer, Beaver Builder, Divi Builder, SiteOrigin Page Builder and the Elementor Page Builder.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, threaded-comments, translation-ready
+Text Domain: sitepoint-base
+*/
+
+
+/* ==========================================================================
+   Default stylings from HTML5 Boilerplate
+   ========================================================================== */
+
+
+/* Apply a natural box layout model to all elements - http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Using rem font sizing (Root em’s) with fallback to px for ie8 and below - http://snook.ca/archives/html_and_css/font-size-with-rem */
+
+::-webkit-selection {
+    background: #5784FE;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #5784FE;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #5784FE;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+/* ==========================================================================
+   Basic page styles
+   ========================================================================== */
+
+
+/*hide anything offscreen, needed for full width bars*/
+
+html {
+    overflow-x: hidden;
+}
+
+
+/* Set the default behavior for touch-based browsing in IE10 on devices running Windows 8 */
+
+
+/* Make sure videos and embeds fit their containers */
+
+
+/* Responsive images */
+
+
+/* Header */
+
+
+/* Text meant only for screen readers */
+
+
+/* Form fields */
+
+
+/* HTML5 galleries */
+
+
+/* Small headers */
+
+
+/* Text meant only for screen readers. */
+
+
+/* ==========================================================================
+   Site specific styles
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Main Content
+   ========================================================================== */
+
+
+/* Author profiles */
+
+
+/* ==========================================================================
+   Post Formats
+   ========================================================================== */
+
+
+/* Aside */
+
+
+/* Status */
+
+
+/* Quote */
+
+
+/* Audio */
+
+
+/* ==========================================================================
+   Archives
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Comments
+   ========================================================================== */
+
+
+/* Comment form */
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+
+/*.site-footer h3 {
+	color: #777;
+}
+
+.site-footer a {
+	color: #999;
+}
+
+.site-footer a:visited {
+	color: #999;
+}
+
+.site-footer a:hover {
+	color: #339bcb;
+}
+
+.site-footer a:focus {
+	outline: thin dotted;
+	color: #339bcb;
+}
+.smallprint a {
+	color: #555;
+}
+
+.smallprint a:visited {
+	color: #555;
+}
+
+.smallprint a:hover {
+	color: #339bcb;
+}
+.smallprint {
+	color: #999;
+}
+*/
+
+
+/* ==========================================================================
+   Widgets
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Content Navigation
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Main Navigation
+   ========================================================================== */
+
+
+/*.main-navigation li.menu-item-has-children > a:after { /* If you don't want the arrows on the top level drop down, simply remove this style */
+
+
+/*	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	speak: none;
+	vertical-align: middle;
+	font-size: 9px;
+	font-size: 0.5625rem;
+	content: " \f078";
+}
+
+.main-navigation ul li li.menu-item-has-children > a:after { /* If you don't want the arrows on the sub-menu options, simply remove this style */
+
+
+/*	font-family: 'FontAwesome';
+	font-weight: normal;
+	font-style: normal;
+	speak: none;
+	vertical-align: middle;
+	font-size: 9px;
+	font-size: 0.5625rem;
+	content: " \f054";
+}
+*/
+
+
+/*.main-navigation .current_page_ancestor > a,
+.main-navigation .current_page_parent > a*/
+
+{
+    color: #339bcb;
+    /* Nav bar link color for current menu item or ancestor */
+}
+
+
+/* Small menu toggle for mobile devices */
+
+
+/* ==========================================================================
+   WPML translation plugin
+   ========================================================================== */
+
+
+/* ==========================================================================
+   WooCommerce
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Page Builders
+   ========================================================================== */
+
+
+/* Divi Builder - Resize rows to match Sitepoint Base */
+
+
+/* Visual Composer - Remove the negative margin when using the full-width page builder template */
+
+
+/* SiteOrigin Page Builder - Ensure the grid only extends 100% */
+
+
+/* Elementor Page Builder - Ensure the grid only extends 100% */
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 650px) {
+    /*	.main-small-navigation .nav-menu, .nav-menu ul {
+		padding: 0;
+	}*/
+}
+
+@media only screen and (max-width: 519px) {
+    /*.main-small-navigation .nav-menu,
+	.main-small-navigation .nav-menu ul,
+	.nav-menu,
+	.nav-menu ul {
+		padding: 0;
+	}*/
+}
+
+
+/* ==========================================================================
+   Non-semantic helper classes from HTML5 Boilerplate
+   Please define your styles before this section.
+   ========================================================================== */
+
+
+/* For image replacement */
+
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+
+
+/* Hide visually and from screenreaders, but maintain layout */
+
+
+/* Contain floats: h5bp.com/q */
+
+
+/* ==========================================================================
+   Print styles from HTML5 Boilerplate
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: black !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        -webkit-filter: none !important;
+        filter: none !important;
+        -ms-filter: none !important;
+    }
+    /* Black prints faster: h5bp.com/s */
+    /* Don't show links for images, or javascript/internal links */
+    /* h5bp.com/t */
+    @page {
+        margin: 0.5cm;
+    }
+}
+
+
+/*additional site specific styles*/
